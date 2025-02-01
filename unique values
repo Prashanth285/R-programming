@@ -1,0 +1,9 @@
+
+string <- "hello world"
+unique_chars <- unique(strsplit(string, "")[[1]])
+print(unique_chars)
+
+vec <- c(1, 2, 3, 2, 4, 5, 1, 5)
+unique_nums <- unique(vec)
+print(unique_nums)
+``
